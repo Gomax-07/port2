@@ -5,68 +5,262 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/intro.css">
+    <title>complete responsive portfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/9940a872a9.js" crossorigin="anonymous"></script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 
 <body>
-    <div class="conteainer-fluid">
-        <div class="starter">
-            <section>
-                <h2>Design, Create & Explore</h2>
-            </section>
-            <div class="banner">
-                <div class="blocks"></div>
-            </div>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo">
+
+            <h1>Macharia John</h1>
+
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contacts</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="projects-btn"></div>
         </div>
 
-        <div class="intro">
-            <div class="banner2">
-                <div class="content">
-                    <div id="name">
-                        <div class="lightbar"></div>
-                        <div class="toplayer"></div>
-                        <h1>Tranquility rediscovered </h1>
-                    </div>
-                    <br>
-                    <a href="./main.html"><button type="button"><span></span>Explore</button></a>
 
 
 
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content" id="name">
+            <h3>Hi,</h3>
+
+            <h3>My name is <span>John</span>.</h3>
+            <p style="font-weight: bolder;">Fullstack developer,fascinated by great designs and new technologies</p>
+            <a href="#about" class="btn">Explore</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> me </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="https://cdn.dribbble.com/users/5025203/screenshots/11445274/media/54a7f6ff51bdb8082b598f1afacc2f22.jpg?compress=1&resize=1200x900&vertical=top" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Who is John?</h3>
+                <p>A software developer who is passionate about new technologies and opportunities.Motivated by all things Javascript and Python.</p>
+                <a href="#projects" class="btn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr>
+    <section class="mount">
+        <h1><span>Technologies</span> & Frameworks</h1>
+        <div class="mount1">
+            <div class="frontend">
+                <h1>Front-end <span>technologies</span> </h1>
+                <p>Javascript</p>
+                <p>Angular</p>
+            </div>
+            <div class="backend">
+                <h1>Back-end <span>technologies</span></h1>
+                <p>Python</p>
+                <p>Django</p>
+                <p>Flask</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- projects section starts  -->
+
+    <section class="projects" id="projects">
+
+        <h1 class="heading"> My <span>Projects</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/talii-pesa1.png" alt="">
+                <h3>Talii-pesa</h3>
+                <a href="https://talii07904.herokuapp.com/" class="btn">View</a>
+            </div>
+
+            <div class="box">
+                <img src="images/Covid-911.png" alt="">
+                <h3>Covid-91</h3>
+                <a href="https://gomax-07.github.io/covid-91/" class="btn">View</a>
+            </div>
+
+            <div class="box">
+                <img src="images/project5.png" alt="">
+                <h3>En-quotes</h3>
+                <a href="https://gomax-07.github.io/quote1/" class="btn">View</a>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery1.png" alt="">
+                <h3>Gallery</h3>
+                <a href="https://gallery07904.herokuapp.com/" class="btn">View</a>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- projects section ends -->
+
+
+
+
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <div class="row">
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.854883745047!2d36.78364461398253!3d-1.259161335950453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17639f6a9d83%3A0x7726e2d63b248683!2sSafaricom%20House.!5e0!3m2!1sen!2ske!4v1645037542413!5m2!1sen!2ske"
+                allowfullscreen="" loading="lazy"></iframe>
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
                 </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value="contact now" class="btn">
+            </form>
 
-
-            </div>
         </div>
 
-    </div>
+    </section>
 
-    <script src="js/intro.js"></script>
+    <!-- contact section ends -->
+
+
+
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="https://github.com/Gomax-07">
+
+                        <span></span>
+                        <span></span>
+                        <span class="fab fa-github-square"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Gikmach">
+
+                        <span></span>
+                        <span></span>
+                        <span class="fab fa-twitter"></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/john-macharia-a57632213/
+                    ">
+
+                        <span></span>
+                        <span></span>
+                        <span class="fab fa-linkedin"></span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contacts</a>
+
+
+
+        </div>
+
+        <div class="credit">created by <span>Macharia John</span> | all rights reserved</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function() {
-
-        $(".starter").on({
-            mouseenter: function() {
-
-                $(".starter").fadeOut(13500);
-                $(".intro").fadeIn("slow");
-            },
-            click: function() {
-                $(".starter").fadeOut(13500);
-                $(".intro").fadeIn("slow");
-
-            },
-            mouseleave: function() {
-                $(".starter").fadeOut(13500);
-                $(".intro").fadeIn("slow");
-            },
-
-
-
-        });
-    });
-</script>
 
 </html>
